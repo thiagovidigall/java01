@@ -13,8 +13,8 @@ services:
       MYSQL_PASSWORD: docker
       MYSQL_ROOT_HOST: '%'
       MYSQL_TCP_PORT: 3308
-    volumes:
-      - ./data1:/var/lib/mysql
+    # volumes:
+    #   - ./data1:/var/lib/mysql
     ports:
       - 3308:3308
     expose:
